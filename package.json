@@ -1,0 +1,15 @@
+{
+  "name": "pac1",
+  "version": "1.0.0",
+  "description": "PAC 1 Eines HTML i CSS",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Xavier Pol Sevilla",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
