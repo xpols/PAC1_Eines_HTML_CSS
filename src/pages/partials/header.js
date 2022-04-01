@@ -1,15 +1,22 @@
 import { home } from "../home";
 import { category } from "../categoy";
-import { detaill } from "../detaill";
+import { presentation } from "../presentation";
+import { links } from "../links";
 
 import '../../styles/style.css';
 
 export const header = () => {
-    const wrapper = document.createElement("section");
-    wrapper.classList = "home";
-    const p = document.createElement("p");
-    p.innerText = "Header";
+    const wrapper = document.createElement("header");
+    wrapper.classList = "header";
+    wrapper.setAttribute('id','header');
 
+    const divTitle = document.createElement("div");
+    const title = document.createElement("h1");
+    title.innerText = "IRON MAN";
+
+    divTitle.appendChild(title);
+
+    const nav = document.createElement("nav");
     const ul = document.createElement("ul");
     const liHome = document.createElement("li");
     liHome.innerText = "home";
@@ -17,18 +24,23 @@ export const header = () => {
     const liCat = document.createElement("li");
     liCat.innerText = "category";
     ul.appendChild(liCat);
-    const liDetaill = document.createElement("li");
-    liDetaill.innerText = "detaill";
-    ul.appendChild(liDetaill);
-    
-    
+    const liPresentation = document.createElement("li");
+    liPresentation.innerText = "presentation";
+    ul.appendChild(liPresentation);
+    const liLinks = document.createElement("li");
+    liLinks.innerText = "links";
+    ul.appendChild(liLinks);
 
-    wrapper.appendChild(p);
-    wrapper.appendChild(ul);
+    nav.appendChild(ul);
+    
+    
+    wrapper.appendChild(divTitle);
+    wrapper.appendChild(nav);
 
     initListener(liHome, home());
     initListener(liCat, category());
-    initListener(liDetaill, detaill());
+    initListener(liPresentation, presentation());
+    initListener(liLinks, links());
 
     return wrapper;
 }

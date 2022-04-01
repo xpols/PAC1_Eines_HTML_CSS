@@ -1,8 +1,8 @@
-export const detaill = () => {
+export const links = () => {
     const wrapper = document.createElement("section");
-    wrapper.classList = "detaill";
+    wrapper.classList = "links";
     const p = document.createElement("p");
-    p.innerText = "test detaill";
+    p.innerText = "test links";
     
 
     wrapper.appendChild(p);
