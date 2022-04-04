@@ -34,7 +34,7 @@
 #app .categories .category img {
     width: 30%;
     margin-right: 3%;
-    height: fit-content;
+    height: 100%;
 }
 
 #app .categories .category .cat-text {
@@ -44,6 +44,17 @@
 #app .categories .category .cat-text p {
     margin-top: 0;
     text-align: justify;
+}
+
+#app .categories .category .cat-text a {
+    color: var(--color-gold);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#app .categories .category .cat-text a:hover {
+    color: var(--color-main-red);
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 550px) {

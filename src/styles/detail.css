@@ -1,0 +1,25 @@
+#app .details {
+    max-width: var(--max-width-content);
+    margin: 1rem auto;
+}
+
+#app .details h2 {
+    text-align: start;
+    width: 100%;
+    color: var(--color-main-red);
+    text-shadow: -2px -2px var(--color-gold), 2px 2px var(--color-gold), 2px 2px var(--color-gold), -2px -2px var(--color-gold);
+    font-family: Bangers;
+    font-size: 3rem;
+}
+
+#app .details h3 {
+    text-align: start;
+    width: 100%;
+    font-size: 2rem;
+    color: var(--color-gold);
+}
+
+#app .details ul li {
+    color: var(--color-main-text);
+    font-size: 1.25rem;
+}
