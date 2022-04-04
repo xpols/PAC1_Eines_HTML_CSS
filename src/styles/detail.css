@@ -1,5 +1,6 @@
 #app .details {
     max-width: var(--max-width-content);
+    width: 90%;
     margin: 1rem auto;
 }
 
@@ -22,4 +23,29 @@
 #app .details ul li {
     color: var(--color-main-text);
     font-size: 1.25rem;
+}
+
+#app .details img {
+    width: 50%;
+    margin: 0 25%;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+    #app .details img {
+        width: 100%;
+        margin: auto;
+    }
+    #app .details p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #app .details h2 {
+        font-size: 2rem;
+    }
+
+    #app .details h3 {
+        font-size: 1.5rem;
+    }
 }
