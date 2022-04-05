@@ -3,7 +3,7 @@ import { category } from "../categoy";
 import { presentation } from "../presentation";
 import { links } from "../links";
 
-import '../../styles/style.css';
+import '../../styles/style.sass';
 
 export const header = () => {
     const wrapper = document.createElement("header");

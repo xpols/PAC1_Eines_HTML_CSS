@@ -2,7 +2,7 @@
   "name": "pac1",
   "version": "1.0.0",
   "description": "PAC 1 Eines HTML i CSS",
-  "browserslist": "> 2%, last 10 versions, not dead, NOT IE 10",
+  "browserslist": "> 2%, last 10 versions, not dead",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
