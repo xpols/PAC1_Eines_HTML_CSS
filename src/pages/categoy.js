@@ -1,4 +1,4 @@
-import '../styles/category.css';
+import '../styles/category.scss';
 import imgResource1 from "../assets/images/cat-70s.jpeg";
 import imgResource2 from "../assets/images/cat-80s.jpeg";
 import imgResource3 from "../assets/images/cat-00s.jpeg";

@@ -1,4 +1,4 @@
-import '../styles/home.css';
+import '../styles/home.scss';
 
 export const home = () => {
     const wrapper = document.createElement("section");

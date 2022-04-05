@@ -1,4 +1,4 @@
-import '../styles/detail.css';
+import '../styles/detail.scss';
 
 import imgResource1Detail from "../assets/images/cat-70s_detail.jpeg";
 import imgResource2Detail from "../assets/images/cat-80s_detail.jpeg";

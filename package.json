@@ -5,9 +5,11 @@
   "browserslist": "> 2%, last 10 versions, not dead",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "clean": "rimraf dist .parcel-cache"
+    "parcel:dev": "parcel",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache",
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build"
   },
   "author": "Xavier Pol Sevilla",
   "license": "MIT",
