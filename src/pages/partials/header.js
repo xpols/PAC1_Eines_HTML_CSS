@@ -35,7 +35,7 @@ export const header = () => {
     spanCat.innerText ="star_border";
     spanCat.classList = "menu-item material-icons-outlined";
     liCat.appendChild(spanCat);
-    pCat.innerText = "category";
+    pCat.innerText = "categorias";
     liCat.appendChild(pCat);
     ul.appendChild(liCat);
 
@@ -45,7 +45,7 @@ export const header = () => {
     spanPresentation.innerText ="star_border";
     spanPresentation.classList = "menu-item material-icons-outlined";
     liPresentation.appendChild(spanPresentation);
-    pPresentation.innerText = "presentation";
+    pPresentation.innerText = "presentación";
     liPresentation.appendChild(pPresentation);
     ul.appendChild(liPresentation);
 

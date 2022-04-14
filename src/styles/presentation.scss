@@ -1,0 +1,33 @@
+@import '../styles/variables.scss';
+
+#app {
+    .presentation {
+        max-width: $max-width-content;
+        width: 90%;
+        margin: auto;
+
+        h2 {
+            text-align: start;
+            width: 100%;
+            color: $color-main-red;
+            text-shadow: -2px -2px $color-gold, 2px 2px $color-gold, 2px 2px $color-gold, -2px -2px $color-gold;
+            font-family: Bangers;
+            font-size: 3rem;
+        }
+
+        .iframeVideo {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .iframeVideo iframe{
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+	.iframeVideo iframe{
+        width: 100%;
+    }
+}
