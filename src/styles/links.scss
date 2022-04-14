@@ -1,0 +1,41 @@
+@import '../styles/variables.scss';
+
+#app {
+    .links {
+        max-width: $max-width-content;
+        width: 90%;
+        margin: auto;
+
+        h2 {
+            text-align: start;
+            width: 100%;
+            color: $color-main-red;
+            text-shadow: -2px -2px $color-gold, 2px 2px $color-gold, 2px 2px $color-gold, -2px -2px $color-gold;
+            font-family: Bangers;
+            font-size: 3rem;
+        }
+
+        h3 {
+            width: 100%;
+            font-size: 2rem;
+            color: $color-main-red;
+        }
+
+        ul {
+            list-style-type: circle;
+            li {
+               div {
+                    display: flex;
+                    a {
+                        margin-left: 10px;
+                        color:$color-gold;
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        color: $color-main-red;
+                    }
+                }
+            }
+        }
+    }
+}
