@@ -21,6 +21,7 @@ export const category = () => {
     divCat1.classList = "cat-main";
     const imgCat1 = document.createElement("img");
     imgCat1.src = imgResource1;
+    imgCat1.alt = "Portada comic Irona 1970";
     const divPCat1 = document.createElement("div");
     divPCat1.classList = "cat-text";
     const pCat1 = document.createElement("p");
@@ -44,6 +45,7 @@ export const category = () => {
     divCat2.classList = "cat-main";
     const imgCat2 = document.createElement("img");
     imgCat2.src = imgResource2;
+    imgCat2.alt = "Portada comic Iron man 'Mission into madness'";
     const divPCat2 = document.createElement("div");
     divPCat2.classList = "cat-text";
     const pCat2 = document.createElement("p");
@@ -67,6 +69,7 @@ export const category = () => {
     divCat3.classList = "cat-main";
     const imgCat3 = document.createElement("img");
     imgCat3.src = imgResource3;
+    imgCat3.alt = "Portada comic Iron man 'Army of Iron men!'";
     const divPCat3 = document.createElement("div");
     divPCat3.classList = "cat-text";
     const pCat3 = document.createElement("p");
@@ -90,6 +93,7 @@ export const category = () => {
     divCat4.classList = "cat-main";
     const imgCat4 = document.createElement("img");
     imgCat4.src = imgResource4;
+    imgCat4.alt = "Portada comic Iron man 'Superior Iron man'";
     const divPCat4 = document.createElement("div");
     divPCat4.classList = "cat-text";
     const pCat4 = document.createElement("p");
