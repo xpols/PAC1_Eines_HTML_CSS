@@ -1,5 +1,10 @@
 import '../styles/home.scss';
 
+import imgResourceI from "../assets/images/I.jpg";
+import imgResourceR from "../assets/images/R.jpg";
+import imgResourceO from "../assets/images/O.jpg";
+import imgResourceN from "../assets/images/N.jpg";
+
 export const home = () => {
     const wrapper = document.createElement("section");
     wrapper.classList = "home";
@@ -26,6 +31,35 @@ export const home = () => {
     wrapper.appendChild(p2);
     wrapper.appendChild(p3);
     wrapper.appendChild(p4);
+
+    const ironClip = document.createElement("div");
+    ironClip.classList = "iron-clip";
+
+    const imgI = document.createElement("img");
+    imgI.classList = "imgI";
+    imgI.src = imgResourceI;
+
+    ironClip.appendChild(imgI);
+
+    const imgR = document.createElement("img");
+    imgR.classList = "imgR";
+    imgR.src = imgResourceR;
+
+    ironClip.appendChild(imgR);
+
+    const imgO = document.createElement("img");
+    imgO.classList = "imgO";
+    imgO.src = imgResourceO;
+
+    ironClip.appendChild(imgO);
+
+    const imgN = document.createElement("img");
+    imgN.classList = "imgN";
+    imgN.src = imgResourceN;
+
+    ironClip.appendChild(imgN);
+
+    wrapper.appendChild(ironClip);
 
     return wrapper;
 }
