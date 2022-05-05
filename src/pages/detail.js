@@ -14,7 +14,8 @@ const cat1_info = {
     ],
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["El demonio en una botella","Ejecutar programa", "Yo soy Iron man"],
-    image: imgResource1Detail
+    image: imgResource1Detail,
+    alt: "Imagen comic iron man decada de los 70s"
 }
 
 const cat2_info = {
@@ -28,7 +29,8 @@ const cat2_info = {
     ],
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["El gritop de la bestia","Stark Wars I", "Revelaciones", "Stark Wars Epilogo", "Duelo de hierro"],
-    image: imgResource2Detail
+    image: imgResource2Detail,
+    alt: "Imagen comic iron man decada de los 80s"
 }
 
 const cat3_info = {
@@ -41,7 +43,8 @@ const cat3_info = {
     ],
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["La Guerra Civil","Invasión Secreta", "Reinado Oscuro"],
-    image: imgResource3Detail
+    image: imgResource3Detail,
+    alt: "Imagen comic iron man decada de los 00s"
 }
 
 const cat4_info = {
@@ -54,7 +57,8 @@ const cat4_info = {
     ],
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["El regreso del Mandarín", "Marvel NOW!","El tiempo se agota", "Existiendo como una I.A."],
-    image: imgResource4Detail
+    image: imgResource4Detail,
+    alt: "Imagen comic iron man superior"
 }
 
 export const detail = (category_id) => {
@@ -106,6 +110,7 @@ function categoryDetail(wrapper, cat_info) {
 
     const imgCat = document.createElement("img");
     imgCat.src = cat_info.image;
+    imgCat.alt = cat_info.alt;
 
     wrapper.appendChild(imgCat);
 }

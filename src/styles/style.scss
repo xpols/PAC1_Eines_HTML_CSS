@@ -11,6 +11,15 @@ body {
 	border-top: 1px solid $color-gold;
 }
 
+#header {
+	text-align: center;
+}
+
+#header img, #footer img {
+	max-width: 50px;
+	margin: 1rem auto 0;
+}
+
 #header h1 {
 	font-family: Bangers;
 	font-size: 4rem;
@@ -63,6 +72,32 @@ p {
 
 #footer p {
 	color: $color-gold;
+}
+
+#footer ul {
+	text-align: center;
+    padding: 0;
+}
+
+#footer li {
+	display: inline;
+	font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+	font-family: Marvel;
+}
+
+#footer li:after {
+	content: " · ";
+}
+
+#footer li:nth-child(4):after {
+	content: " ";
+}
+
+#footer li:hover {
+	font-weight: bold;
+	font-size: 1.6rem;
 }
 
 @media screen and (max-width: 550px) {

@@ -38,24 +38,28 @@ export const home = () => {
     const imgI = document.createElement("img");
     imgI.classList = "imgI";
     imgI.src = imgResourceI;
+    imgI.alt = "Fotografia armadura IronMan recortada en forma de I";
 
     ironClip.appendChild(imgI);
 
     const imgR = document.createElement("img");
     imgR.classList = "imgR";
     imgR.src = imgResourceR;
+    imgR.alt = "Dibujo casco IronMan recortado en forma de R";
 
     ironClip.appendChild(imgR);
 
     const imgO = document.createElement("img");
     imgO.classList = "imgO";
     imgO.src = imgResourceO;
+    imgO.alt = "Fotografia reactor ARC recortada en forma de O";
 
     ironClip.appendChild(imgO);
 
     const imgN = document.createElement("img");
     imgN.classList = "imgN";
     imgN.src = imgResourceN;
+    imgR.alt = "Dibujo armaduro IronMan recortado en forma de N";
 
     ironClip.appendChild(imgN);
 

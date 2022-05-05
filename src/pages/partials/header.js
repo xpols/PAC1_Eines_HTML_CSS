@@ -2,6 +2,7 @@ import { home } from "../home";
 import { category } from "../categoy";
 import { presentation } from "../presentation";
 import { links } from "../links";
+import imgLogo from "../../assets/images/iron-man.svg";
 
 import '../../styles/style.scss';
 
@@ -13,7 +14,10 @@ export const header = () => {
     const divTitle = document.createElement("div");
     const title = document.createElement("h1");
     title.innerText = "IRON MAN";
-
+    const imgHeader = document.createElement("img");
+    imgHeader.src = imgLogo;
+    imgHeader.alt = "Casco Iron Man";
+    divTitle.appendChild(imgHeader);
     divTitle.appendChild(title);
 
     const nav = document.createElement("nav");
