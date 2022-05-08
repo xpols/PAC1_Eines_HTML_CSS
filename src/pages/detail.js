@@ -1,11 +1,28 @@
 import '../styles/detail.scss';
 
 import imgResource1Detail from "../assets/images/cat-70s_detail.jpeg";
+import imgResource1DetailX2 from "../assets/images/cat-70s_detail_x2.jpeg";
 import imgResource2Detail from "../assets/images/cat-80s_detail.jpeg";
+import imgResource2DetailX2 from "../assets/images/cat-80s_detail_x2.jpeg";
 import imgResource3Detail from "../assets/images/cat-00s_detail.jpeg";
+import imgResource3DetailX2 from "../assets/images/cat-00s_detail_x2.jpeg";
 import imgResource4Detail from "../assets/images/cat-10s_detail.jpeg";
+import imgResource4DetailX2 from "../assets/images/cat-10s_detail_x2.jpeg";
+
+import imgResource1Detail_2 from "../assets/images/cat-80s_detail.jpeg";
+import imgResource1Detail_2X2 from "../assets/images/cat-80s_detail_x2.jpeg";
+import imgResource2Detail_2 from "../assets/images/cat-00s_detail.jpeg";
+import imgResource2Detail_2X2 from "../assets/images/cat-00s_detail_x2.jpeg";
+import imgResource3Detail_2 from "../assets/images/cat-70s_detail.jpeg";
+import imgResource3Detail_2X2 from "../assets/images/cat-70s_detail_x2.jpeg";
+import imgResource4Detail_2 from "../assets/images/cat-70s_detail.jpeg";
+import imgResource4Detail_2X2 from "../assets/images/cat-70s_detail_x2.jpeg";
+
+import imgResourceCasco from "../assets/images/casco_x1.png";
+import imgResourceCascoX2 from "../assets/images/casco_x2.png";
 
 const cat1_info = {
+    id: "catMainImg1",
     title: "De 1970 y principios de 1980",
     paragraphs : [
         "Stan Lee y Jack Kirby crearon a Iron Man en 1963, en plena guerra del Vietnam, aunque sus múltiples compromisos les obligaron a dejar el personaje en manos de Larry Lieber, hermano de Lee, y el eficaz dibujante Don Heck que usó a Errol Flynn como modelo de Tony Stark.",
@@ -15,11 +32,18 @@ const cat1_info = {
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["El demonio en una botella","Ejecutar programa", "Yo soy Iron man"],
     image: imgResource1Detail,
-    alt: "Imagen comic iron man decada de los 70s"
+    image_2: imgResource1Detail_2,
+    alt: "Imagen comic iron man decada de los 70s",
+    alt_2: "Imagen comic iron man decada de los 80s",
+    srcset: imgResource1Detail + " 550w, " + imgResource1DetailX2 + " 1024w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
+    srcset_2: imgResource1Detail_2 + " 550w, " + imgResource1Detail_2X2 + " 1024w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
 }
 
 const cat2_info = {
-    title: "Finales de 1980 y 1990",
+    id: "catMainImg2",
+    title: "Finales de 1980 y inicios de 1990",
     paragraphs : [
         "En un intento para impedir que otras personas hagan mal uso de sus diseños, Stark trata de deshabilitar a otros héroes y villanos blindados que están utilizando armaduras basadas en la tecnología de Iron Man, de los cuales sus diseños fueron robados por su enemigo Spymaster. Su búsqueda para destruir todas las instancias de la tecnología robada daña su reputación como Iron Man. Después de atacar y deshabilitar a una serie de villanos como Stilt-Man, él ataca y derrota al agente del gobierno conocido como Stingray. La situación empeora cuando Stark se da cuenta de que la armadura de Stingray no incorpora ninguno de sus diseños. Él despide públicamente a Iron Man mientras seguía secretamente su rutina. Él utiliza la coartada de querer ayudar a desactivar al renegado Iron Man para infiltrarse y desactivar las armaduras de los agentes de S.H.I.E.L.D. conocidos como los Mandroides, y también la armadura de los Guardias. En el proceso, Iron Man y Jim Rhodes permiten que escapen algunos de los villanos de la Bóveda. Esto lleva al gobierno de los Estados Unidos a declarar a Iron Man un peligro y un proscrito, y corrompe gravemente la relación de Stark con Steve Rogers (Capitán América, que estaba en su personalidad de 'Capitán' en ese momento). Iron Man viaja a Rusia, donde inadvertidamente provoca la muerte del soviético Hombre de Titanio durante una pelea. Al regresar a los Estados Unidos, se enfrenta a un enemigo encargado por el gobierno llamado Firepower. Incapaz de derrotarlo de frente, Stark falsifica la desaparición de Iron Man, con la intención de retirar el traje de forma permanente. Cuando Firepower se vuelve pícaro, Stark crea un nuevo traje, afirmando que una nueva persona está en la armadura.",
         "Poco después, Stark es casi asesinado por Kathy Dare, una ex amante mentalmente desequilibrada. Ella le dispara en el centro de su torso, lo que lastima su columna vertebral, paralizándolo.Stark se somete a una cirugía especial para que le implanten un chip nervioso en la columna vertebral para recuperar su movilidad. Desconocido para el industrial, el chip nervioso es un medio clandestino por el cual puede ganar control sobre su cuerpo. Los hombres de negocios rivales, gemelos Marrs y su cohorte Kearson DeWitt están detrás de las maquinaciones en lo que se conoció como 'Armor Wars II'. Después de varias pruebas exitosas de DeWitt para manipular a Stark, Tony descubre que usar su armadura de encéfalo puede contrarrestar los controles de DeWitt. En respuesta, DeWitt repentinamente libera su control, lo que resulta en una agonía insoportable en todo el cuerpo de Stark. La constante 'batalla' por el control del sistema nervioso de Stark y la subsiguiente abdicación en el extremo de DeWitt llevan a un daño masivo en los nervios de todo el cuerpo de Tony. El sistema nervioso de Stark continúa su deslizamiento hacia el fracaso, y construye una 'piel' formada por circuitos de nervios artificiales para ayudarlo. Stark comienza a pilotar una armadura de Iron Man a control remoto, pero cuando se enfrenta a los Maestros del Silencio, la demanda de telepresencia es inadecuada. Stark diseña una versión más armada del traje para usar, el 'Traje de batalla de respuesta de amenaza variable'. En última instancia, el daño a su sistema nervioso se vuelve demasiado extenso. Fingiendo su muerte, Stark se coloca en animación suspendida para curarse mientras Rhodes se hace cargo tanto de Stark Enterprises como del manto de Iron Man, aunque usa la armadura War Machine. Stark finalmente se recupera completamente al usar un chip para crear un sistema nervioso (artificial) y se reanuda como Iron Man en una nueva armadura de telepresencia. Cuando Rhodes se entera de que Stark ha manipulado a sus amigos fingiendo su propia muerte, se enfurece y los dos amigos se separan. Rhodes continúa como War Machine en una carrera en solitario.",
@@ -30,11 +54,18 @@ const cat2_info = {
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["El gritop de la bestia","Stark Wars I", "Revelaciones", "Stark Wars Epilogo", "Duelo de hierro"],
     image: imgResource2Detail,
-    alt: "Imagen comic iron man decada de los 80s"
+    image_2: imgResource2Detail_2,
+    alt: "Imagen comic iron man decada de los 80s",
+    alt_2: "Imagen comic iron man decada de los 00s",
+    srcset: imgResource2Detail + " 550w, " + imgResource2DetailX2 + " 1024w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
+    srcset_2: imgResource2Detail_2 + " 550w, " + imgResource2Detail_2X2 + " 1024w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
 }
 
 const cat3_info = {
-    title: "2000",
+    id: "catMainImg3",
+    title: "Edad dorada año 2000 (UCM)",
     paragraphs : [
         "En un momento dado, la armadura de Stark se vuelve sensible a pesar de las cajas de seguridad para evitar que sus sistemas informáticos cada vez más sofisticados lo hagan. Inicialmente, Stark le da la bienvenida a esta armadura 'viva' por sus habilidades tácticas mejoradas. La armadura comienza a ser más agresiva, matando indiscriminada y eventualmente deseando reemplazar a Stark por completo. En la confrontación final en una isla desierta, Stark sufre otro ataque al corazón. La armadura sacrifica su propia existencia para salvar la vida de su creador, renunciando a componentes esenciales para darle a Stark un corazón nuevo y artificial. Este nuevo corazón resuelve los problemas de salud de Stark, pero no tiene una fuente de alimentación interna, por lo que Stark se vuelve una vez más dependiente de la recarga periódica. El incidente de la armadura sensible perturba tanto a Stark que vuelve temporalmente a usar una versión de modelo anterior poco sofisticada de su armadura para evitar un incidente repetido. Él incursiona con el uso de circuitos de metal líquido conocido como SKIN que se forma en una cubierta protectora alrededor de su cuerpo, pero eventualmente regresa a armaduras de metal duro más convencionales.",
         "Después de las acciones de los superhéroes inexpertos, los Nuevos Guerreros resultan en la destrucción de varias cuadras de la ciudad en Stamford, Connecticut, hay una protesta en todo Estados Unidos contra los superhumanos. Al conocer los planes propuestos por el gobierno, Tony Stark sugiere un nuevo plan para instigar una Ley de Registro de Superhumanos. La Ley obligaría a todas las personas con superpoderes en los EE. UU. a registrar su identidad con el gobierno y actuar como agentes autorizados. La Ley obligaría a los superhumanos inexpertos a recibir capacitación sobre cómo usar y controlar sus habilidades, algo en lo que Tony cree firmemente. Desde su lucha contra el alcoholismo, Stark ha cargado con una tremenda carga de culpa después de casi matar a un inocente espectador mientras pilotaba la armadura borracho. Mientras que Reed Richards y el Dr. Henry 'Hank' Pym están de acuerdo con la propuesta de Stark, no todos lo hacen. Después de que al Capitán América se le ordena que traiga a cualquiera que se niegue a registrarse, él y otros superhéroes anti-registro se deshacen, entrando en conflicto con los héroes pro-registro, liderados por Iron Man. La guerra termina cuando el Capitán América se rinde para evitar más daños colaterales y víctimas civiles, aunque él había derrotado a Stark al desactivar su armadura. Stark es nombrado nuevo director de S.H.I.E.L.D., y organiza un nuevo grupo de Vengadores aprobado por el gobierno. Poco después, el Capitán América es asesinado mientras se encuentra bajo custodia. Esto deja a Stark con una gran cantidad de culpa y dudas sobre el costo de su victoria. Luego en su funeral pronunció unas palabras, «nunca supuse que terminaría así». Después, Iron Man sabrá que el Capitán América será revivido en Captain América: Reborn.",
@@ -44,10 +75,17 @@ const cat3_info = {
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["La Guerra Civil","Invasión Secreta", "Reinado Oscuro"],
     image: imgResource3Detail,
-    alt: "Imagen comic iron man decada de los 00s"
+    image: imgResource3Detail_2,
+    alt: "Imagen comic iron man decada de los 00s",
+    alt_2: "Imagen comic iron man superior",
+    srcset: imgResource3Detail + " 550w, " + imgResource3DetailX2 + " 1024w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
+    srcset_2: imgResource3Detail_2 + " 550w, " + imgResource3Detail_2X2 + " 1024w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
 }
 
 const cat4_info = {
+    id: "catMainImg4",
     title: "Iron Man Superior",
     paragraphs : [
         "En la historia 'Asedio', Tony Stark está bajo el cuidado del Dr. Donald Blake y Maria Hill, cuando Asgard es atacado. Thor es emboscado por Osborn y Sentry, pero rescatado por Hill. Osborn declara la ley marcial y libera a Daken y Sentry en Broxton para erradicar a Thor y Hill. Hill regresa al escondite de Stark para trasladarlo a un lugar más seguro y se les une Veloz de los Jóvenes Vengadores, que tiene un conjunto de armaduras MK III de Iron Man que Edwin Jarvis le había dado al Capitán América. Mientras Osborn está luchando contra los Nuevos Vengadores, Stark aparece y desactiva la armadura del Patriota de hierro de Osborn. Osborn le ordena a Sentry que aniquile a Asgard, en lugar de permitir que los Vengadores lo tengan. Después de que Asgard se cae, Stark se pone de pie junto a sus compañeros héroes, mientras Osborn exclama que todos están condenados y que él 'los estaba salvando de él' apuntando hacia un Vigía Sentry poseído. Mientras el Vacío desgarra a los equipos, Loki les da el poder de luchar a través de las Piedras Norn. El Vigía mata a Loki, enfureciendo a Thor. Tony le dice a Thor que retire el vacío de Asgard, lo que le permite dejar caer un helicóptero H.A.M.M.E.R. en el vacío. Thor se ve obligado a matar a Sentry cuando el Vigía reaparece. Algún tiempo después, se deroga la Ley de registro de superhumanos y se devuelve a Tony su compañía y su armadura. Como símbolo de sus actos heroicos y su nueva unidad, Thor coloca una torre asgardiana en la Torre Stark, donde una vez estuvo la Atalaya.",
@@ -58,7 +96,13 @@ const cat4_info = {
     featuredTitle: "Titulos destacados de la epoca",
     featuredTitles: ["El regreso del Mandarín", "Marvel NOW!","El tiempo se agota", "Existiendo como una I.A."],
     image: imgResource4Detail,
-    alt: "Imagen comic iron man superior"
+    image: imgResource4Detail_2,
+    alt: "Imagen comic iron man superior",
+    alt_2: "Imagen comic iron man decada de los 70s",
+    srcset: imgResource4Detail + " 550w, " + imgResource4DetailX2 + " 1024w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
+    srcset_2: imgResource4Detail_2 + " 550w, " + imgResource4Detail_2X2 + " 1024w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
 }
 
 export const detail = (category_id) => {
@@ -85,9 +129,20 @@ export const detail = (category_id) => {
 }
 
 function categoryDetail(wrapper, cat_info) {
+    const divTitle = document.createElement("div");
+    divTitle.classList = "block-title";
     const titleH2 = document.createElement("h2");
     titleH2.innerText = cat_info.title;
-    wrapper.appendChild(titleH2);
+
+    const imgCasco = document.createElement("img");
+    imgCasco.setAttribute('id','casco');
+    imgCasco.src = imgResourceCasco;
+    imgCasco.alt = "Casco Iron Man";
+    //imgCasco.srcset = cat_info.srcset;
+    //imgCasco.sizes = cat_info.sizes;
+    divTitle.appendChild(imgCasco);
+    divTitle.appendChild(titleH2);
+    wrapper.appendChild(divTitle);
 
     cat_info.paragraphs.forEach(function (value) {
         let pCat = document.createElement("p");
@@ -108,9 +163,25 @@ function categoryDetail(wrapper, cat_info) {
 
     wrapper.appendChild(ul);
 
+    const divImg = document.createElement("div");
+    divImg.classList = "block-img";
     const imgCat = document.createElement("img");
+    imgCat.setAttribute('id',cat_info.id);
     imgCat.src = cat_info.image;
     imgCat.alt = cat_info.alt;
+    imgCat.srcset = cat_info.srcset;
+    imgCat.sizes = cat_info.sizes;
 
-    wrapper.appendChild(imgCat);
+    const imgCat2 = document.createElement("img");
+    imgCat2.setAttribute('id',cat_info.id+"_2");
+    imgCat2.src = cat_info.image_2;
+    imgCat2.alt = cat_info.alt_2;
+    imgCat2.srcset = cat_info.srcset_2;
+    imgCat2.sizes = cat_info.sizes_2;
+    
+
+    divImg.appendChild(imgCat);
+    divImg.appendChild(imgCat2);
+
+    wrapper.appendChild(divImg);
 }

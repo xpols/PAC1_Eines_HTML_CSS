@@ -30,6 +30,8 @@
 
             .cat-main {
                 display: flex;
+
+               
             }
 
             img {
@@ -45,15 +47,19 @@
                     text-align: justify;
                 }
 
-                a {
-                    color: $color-gold;
-                    text-decoration: none;
-                    cursor: pointer;
-                }
-
-                a:hover {
-                    color: $color-main-red;
-                    text-decoration: underline;
+                .cat-aux {
+                    display: grid;
+                    a {
+                        color: $color-gold;
+                        text-decoration: none;
+                        cursor: pointer;
+                        margin-top: 1rem;
+                    }
+    
+                    a:hover {
+                        color: $color-main-red;
+                        text-decoration: underline;
+                    }
                 }
             }
         }

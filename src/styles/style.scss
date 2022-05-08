@@ -11,6 +11,20 @@ body {
 	border-top: 1px solid $color-gold;
 }
 
+@keyframes opacityTransMain {
+	0% { 
+	  opacity: 0;         
+	}
+	100% { 
+	  opacity: 1; 
+	}
+}
+
+.home, .categories, .presentation, .links, .details {
+	opacity: 1;
+	animation: opacityTransMain 1.5s ease;
+}
+
 #header {
 	text-align: center;
 }

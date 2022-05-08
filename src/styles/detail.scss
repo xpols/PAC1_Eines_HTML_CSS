@@ -28,10 +28,34 @@
 }
 
 #app .details img {
-    width: 50%;
-    margin: 0 25%;
+    width: 48%;
     margin-top: 1rem;
 }
+
+#app .details .block-title {
+    display: flex;
+}
+
+#app .details #casco {
+    max-width: 4rem;
+    height: 4rem;
+    margin-top: 2.25rem;
+    margin-right: 1rem;
+}
+
+#app .details img:nth-child(1) {
+    margin-right: 4%;
+}
+
+#app .details .block-img {
+    display: flex;
+}
+
+#app .details .block-img #catMainImg4 {
+    max-width: 300px;
+}
+
+
 
 @media screen and (max-width: 550px) {
     #app .details img {
@@ -49,5 +73,37 @@
 
     #app .details h3 {
         font-size: 1.5rem;
+    }
+
+    #app .details .block-img {
+        display: block;
+    }
+
+    #app .details img:nth-child(1) {
+        margin-bottom: 20px;
+    }
+
+    #app .details #casco {
+        max-width: 4rem;
+        height: 4rem;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+    #catMainImg1{
+        background-image: url("../assets/images/cat-70s_detail_x2.jpeg");
+    }
+    #catMainImg2{
+        background-image: url("../assets/images/cat-80s_detail_x2.jpeg");
+    }
+    #catMainImg3{
+        background-image: url("../assets/images/cat-00s_detail_x2.jpeg");
+    }
+    #catMainImg4{
+        background-image: url("../assets/images/cat-10s_detail_x2.jpeg");
     }
 }
