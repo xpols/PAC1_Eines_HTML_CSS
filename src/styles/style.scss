@@ -59,6 +59,7 @@ body {
     font-weight: bold;
 	color: $color-gold;
     font-size: 1.25rem;
+	transition: color 0.5s ease-out;
 }
 
 #header ul li .menu-item {
@@ -99,6 +100,7 @@ p {
     text-transform: uppercase;
     cursor: pointer;
 	font-family: Marvel;
+	transition: font-size 0.5s linear;
 }
 
 #footer li:after {

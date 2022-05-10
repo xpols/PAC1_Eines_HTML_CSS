@@ -138,8 +138,6 @@ function categoryDetail(wrapper, cat_info) {
     imgCasco.setAttribute('id','casco');
     imgCasco.src = imgResourceCasco;
     imgCasco.alt = "Casco Iron Man";
-    //imgCasco.srcset = cat_info.srcset;
-    //imgCasco.sizes = cat_info.sizes;
     divTitle.appendChild(imgCasco);
     divTitle.appendChild(titleH2);
     wrapper.appendChild(divTitle);

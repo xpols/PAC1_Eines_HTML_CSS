@@ -54,11 +54,24 @@
                         text-decoration: none;
                         cursor: pointer;
                         margin-top: 1rem;
+                        transition: color 0.5s ease-out, font-size 0.5s ease-out;
                     }
     
                     a:hover {
                         color: $color-main-red;
                         text-decoration: underline;
+                        font-size: 1.25rem;
+                    }
+
+                    img {
+                        width: 30%;
+                        margin-right: 3%;
+                        height: 100%;
+                        transition: width 1s ease-out;
+                    }
+
+                    img:hover {
+                        width: 50%;
                     }
                 }
             }

@@ -5,6 +5,10 @@ import imgResourceR from "../assets/images/R.jpg";
 import imgResourceO from "../assets/images/O.jpg";
 import imgResourceN from "../assets/images/N.jpg";
 
+
+import imgResourcePicture1 from "../assets/images/picture-iron-man-detaill.jpg";
+import imgResourcePicture2 from "../assets/images/picture-iron-man-big.jpg";
+
 export const home = () => {
     const wrapper = document.createElement("section");
     wrapper.classList = "home";
@@ -29,6 +33,23 @@ export const home = () => {
 
     wrapper.appendChild(p1);
     wrapper.appendChild(p2);
+
+    const picture = document.createElement("picture");
+    const source1 = document.createElement("source");
+    source1.media = "(max-width: 550px)";
+    source1.srcset = imgResourcePicture1;
+    const source2 = document.createElement("source");
+    source2.media = "(min-width: 551px)";
+    source2.srcset = imgResourcePicture2;
+    picture.appendChild(source1);
+    picture.appendChild(source2);
+    const imgPicture = document.createElement("img");
+    imgPicture.classList = "imgPicture";
+    imgPicture.src = imgResourcePicture2;
+    imgPicture.alt = "diagrama IronMan";
+    picture.appendChild(imgPicture);
+    wrapper.appendChild(picture);
+
     wrapper.appendChild(p3);
     wrapper.appendChild(p4);
 
