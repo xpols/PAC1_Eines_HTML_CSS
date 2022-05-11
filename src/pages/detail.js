@@ -35,10 +35,10 @@ const cat1_info = {
     image_2: imgResource1Detail_2,
     alt: "Imagen comic iron man decada de los 70s",
     alt_2: "Imagen comic iron man decada de los 80s",
-    srcset: imgResource1Detail + " 550w, " + imgResource1DetailX2 + " 1024w",
-    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
-    srcset_2: imgResource1Detail_2 + " 550w, " + imgResource1Detail_2X2 + " 1024w",
-    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
+    srcset: imgResource1Detail + " 600w, " + imgResource1DetailX2 + " 1200w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw",
+    srcset_2: imgResource1Detail_2 + " 740w, " + imgResource1Detail_2X2 + " 1480w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw"
 }
 
 const cat2_info = {
@@ -57,10 +57,10 @@ const cat2_info = {
     image_2: imgResource2Detail_2,
     alt: "Imagen comic iron man decada de los 80s",
     alt_2: "Imagen comic iron man decada de los 00s",
-    srcset: imgResource2Detail + " 550w, " + imgResource2DetailX2 + " 1024w",
-    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
-    srcset_2: imgResource2Detail_2 + " 550w, " + imgResource2Detail_2X2 + " 1024w",
-    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
+    srcset: imgResource2Detail + " 740w, " + imgResource2DetailX2 + " 1480w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw",
+    srcset_2: imgResource2Detail_2 + " 850w, " + imgResource2Detail_2X2 + " 1700w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw"
 }
 
 const cat3_info = {
@@ -78,10 +78,10 @@ const cat3_info = {
     image: imgResource3Detail_2,
     alt: "Imagen comic iron man decada de los 00s",
     alt_2: "Imagen comic iron man superior",
-    srcset: imgResource3Detail + " 550w, " + imgResource3DetailX2 + " 1024w",
-    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
-    srcset_2: imgResource3Detail_2 + " 550w, " + imgResource3Detail_2X2 + " 1024w",
-    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
+    srcset: imgResource3Detail + " 850w, " + imgResource3DetailX2 + " 1700w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw",
+    srcset_2: imgResource3Detail_2 + " 600w, " + imgResource3Detail_2X2 + " 1200w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw"
 }
 
 const cat4_info = {
@@ -99,10 +99,10 @@ const cat4_info = {
     image: imgResource4Detail_2,
     alt: "Imagen comic iron man superior",
     alt_2: "Imagen comic iron man decada de los 70s",
-    srcset: imgResource4Detail + " 550w, " + imgResource4DetailX2 + " 1024w",
-    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px",
-    srcset_2: imgResource4Detail_2 + " 550w, " + imgResource4Detail_2X2 + " 1024w",
-    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 1200px"
+    srcset: imgResource4Detail + " 245w, " + imgResource4DetailX2 + " 490w",
+    sizes: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw",
+    srcset_2: imgResource4Detail_2 + " 600w, " + imgResource4Detail_2X2 + " 1200w",
+    sizes_2: "(max-width: 550px) 90vw, (min-width: 551px) 45vw, 45vw"
 }
 
 export const detail = (category_id) => {
