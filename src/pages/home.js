@@ -48,6 +48,8 @@ export const home = () => {
     imgPicture.src = imgResourcePicture2;
     imgPicture.alt = "diagrama IronMan";
     imgPicture.loading="lazy";
+    imgPicture.style.height = "auto";
+    imgPicture.style.width = "90%";
     picture.appendChild(imgPicture);
     wrapper.appendChild(picture);
 
