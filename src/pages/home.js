@@ -47,6 +47,7 @@ export const home = () => {
     imgPicture.classList = "imgPicture";
     imgPicture.src = imgResourcePicture2;
     imgPicture.alt = "diagrama IronMan";
+    imgPicture.loading="lazy";
     picture.appendChild(imgPicture);
     wrapper.appendChild(picture);
 
@@ -60,6 +61,7 @@ export const home = () => {
     imgI.classList = "imgI";
     imgI.src = imgResourceI;
     imgI.alt = "Fotografia armadura IronMan recortada en forma de I";
+    imgI.loading="lazy";
 
     ironClip.appendChild(imgI);
 
@@ -67,6 +69,7 @@ export const home = () => {
     imgR.classList = "imgR";
     imgR.src = imgResourceR;
     imgR.alt = "Dibujo casco IronMan recortado en forma de R";
+    imgR.loading="lazy";
 
     ironClip.appendChild(imgR);
 
@@ -74,6 +77,7 @@ export const home = () => {
     imgO.classList = "imgO";
     imgO.src = imgResourceO;
     imgO.alt = "Fotografia reactor ARC recortada en forma de O";
+    imgO.loading="lazy";
 
     ironClip.appendChild(imgO);
 
@@ -81,6 +85,7 @@ export const home = () => {
     imgN.classList = "imgN";
     imgN.src = imgResourceN;
     imgR.alt = "Dibujo armaduro IronMan recortado en forma de N";
+    imgR.loading="lazy";
 
     ironClip.appendChild(imgN);
 

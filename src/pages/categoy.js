@@ -27,6 +27,7 @@ export const category = () => {
     const imgCat1 = document.createElement("img");
     imgCat1.src = imgResource1;
     imgCat1.alt = "Portada comic Irona 1970";
+    imgCat1.loading="lazy";
     const divPCat1 = document.createElement("div");
     divPCat1.classList = "cat-text";
     const pCat1 = document.createElement("p");
@@ -38,6 +39,7 @@ export const category = () => {
     const imgCat1Detaill = document.createElement("img");
     imgCat1Detaill.src = imgResource1Detail;
     imgCat1Detaill.alt = "Imagen comic iron man decada de los 70s";
+    imgCat1Detaill.loading="lazy";
     
     aCat1.textContent = "Ver más [+]";
 
@@ -62,6 +64,7 @@ export const category = () => {
     const imgCat2 = document.createElement("img");
     imgCat2.src = imgResource2;
     imgCat2.alt = "Portada comic Iron man 'Mission into madness'";
+    imgCat2.loading="lazy";
     const divPCat2 = document.createElement("div");
     divPCat2.classList = "cat-text";
     const pCat2 = document.createElement("p");
@@ -73,6 +76,7 @@ export const category = () => {
     const imgCat2Detaill = document.createElement("img");
     imgCat2Detaill.src = imgResource2Detail;
     imgCat2Detaill.alt = "Imagen comic iron man decada de los 80s";
+    imgCat2Detaill.loading="lazy";
     
     aCat2.textContent = "Ver más [+]";
 
@@ -97,6 +101,7 @@ export const category = () => {
     const imgCat3 = document.createElement("img");
     imgCat3.src = imgResource3;
     imgCat3.alt = "Portada comic Iron man 'Army of Iron men!'";
+    imgCat3.loading="lazy";
     const divPCat3 = document.createElement("div");
     divPCat3.classList = "cat-text";
     const pCat3 = document.createElement("p");
@@ -108,6 +113,7 @@ export const category = () => {
     const imgCat3Detaill = document.createElement("img");
     imgCat3Detaill.src = imgResource3Detail;
     imgCat3Detaill.alt = "Imagen comic iron man decada de los 00s";
+    imgCat3Detaill.loading="lazy";
     
     aCat3.textContent = "Ver más [+]";
 
@@ -132,6 +138,7 @@ export const category = () => {
     const imgCat4 = document.createElement("img");
     imgCat4.src = imgResource4;
     imgCat4.alt = "Portada comic Iron man 'Superior Iron man'";
+    imgCat4.loading="lazy";
     const divPCat4 = document.createElement("div");
     divPCat4.classList = "cat-text";
     const pCat4 = document.createElement("p");
@@ -143,6 +150,7 @@ export const category = () => {
     const imgCat4Detaill = document.createElement("img");
     imgCat4Detaill.src = imgResource4Detail;
     imgCat4Detaill.alt = "Imagen comic iron man superior";
+    imgCat4Detaill.loading="lazy";
     
     aCat4.textContent = "Ver más [+]";
 

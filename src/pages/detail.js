@@ -138,6 +138,7 @@ function categoryDetail(wrapper, cat_info) {
     imgCasco.setAttribute('id','casco');
     imgCasco.src = imgResourceCasco;
     imgCasco.alt = "Casco Iron Man";
+    imgCasco.loading="lazy";
     divTitle.appendChild(imgCasco);
     divTitle.appendChild(titleH2);
     wrapper.appendChild(divTitle);
@@ -169,6 +170,7 @@ function categoryDetail(wrapper, cat_info) {
     imgCat.alt = cat_info.alt;
     imgCat.srcset = cat_info.srcset;
     imgCat.sizes = cat_info.sizes;
+    imgCat.loading="lazy";
 
     const imgCat2 = document.createElement("img");
     imgCat2.setAttribute('id',cat_info.id+"_2");
@@ -176,7 +178,7 @@ function categoryDetail(wrapper, cat_info) {
     imgCat2.alt = cat_info.alt_2;
     imgCat2.srcset = cat_info.srcset_2;
     imgCat2.sizes = cat_info.sizes_2;
-    
+    imgCat2.loading="lazy";
 
     divImg.appendChild(imgCat);
     divImg.appendChild(imgCat2);
