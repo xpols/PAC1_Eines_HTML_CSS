@@ -1,22 +1,22 @@
 import '../styles/detail.scss';
 
-import imgResource1Detail from "../assets/images/cat-70s_detail.jpeg";
-import imgResource1DetailX2 from "../assets/images/cat-70s_detail_x2.jpeg";
-import imgResource2Detail from "../assets/images/cat-80s_detail.jpeg";
-import imgResource2DetailX2 from "../assets/images/cat-80s_detail_x2.jpeg";
-import imgResource3Detail from "../assets/images/cat-00s_detail.jpeg";
-import imgResource3DetailX2 from "../assets/images/cat-00s_detail_x2.jpeg";
-import imgResource4Detail from "../assets/images/cat-10s_detail.jpeg";
-import imgResource4DetailX2 from "../assets/images/cat-10s_detail_x2.jpeg";
+import imgResource1Detail from "../assets/images/cat-70s_detail.webp";
+import imgResource1DetailX2 from "../assets/images/cat-70s_detail_x2.webp";
+import imgResource2Detail from "../assets/images/cat-80s_detail.webp";
+import imgResource2DetailX2 from "../assets/images/cat-80s_detail_x2.webp";
+import imgResource3Detail from "../assets/images/cat-00s_detail.webp";
+import imgResource3DetailX2 from "../assets/images/cat-00s_detail_x2.webp";
+import imgResource4Detail from "../assets/images/cat-10s_detail.webp";
+import imgResource4DetailX2 from "../assets/images/cat-10s_detail_x2.webp";
 
-import imgResource1Detail_2 from "../assets/images/cat-80s_detail.jpeg";
-import imgResource1Detail_2X2 from "../assets/images/cat-80s_detail_x2.jpeg";
-import imgResource2Detail_2 from "../assets/images/cat-00s_detail.jpeg";
-import imgResource2Detail_2X2 from "../assets/images/cat-00s_detail_x2.jpeg";
-import imgResource3Detail_2 from "../assets/images/cat-70s_detail.jpeg";
-import imgResource3Detail_2X2 from "../assets/images/cat-70s_detail_x2.jpeg";
-import imgResource4Detail_2 from "../assets/images/cat-70s_detail.jpeg";
-import imgResource4Detail_2X2 from "../assets/images/cat-70s_detail_x2.jpeg";
+import imgResource1Detail_2 from "../assets/images/cat-80s_detail.webp";
+import imgResource1Detail_2X2 from "../assets/images/cat-80s_detail_x2.webp";
+import imgResource2Detail_2 from "../assets/images/cat-00s_detail.webp";
+import imgResource2Detail_2X2 from "../assets/images/cat-00s_detail_x2.webp";
+import imgResource3Detail_2 from "../assets/images/cat-70s_detail.webp";
+import imgResource3Detail_2X2 from "../assets/images/cat-70s_detail_x2.webp";
+import imgResource4Detail_2 from "../assets/images/cat-70s_detail.webp";
+import imgResource4Detail_2X2 from "../assets/images/cat-70s_detail_x2.webp";
 
 import imgResourceCasco from "../assets/images/casco_x1.png";
 import imgResourceCascoX2 from "../assets/images/casco_x2.png";

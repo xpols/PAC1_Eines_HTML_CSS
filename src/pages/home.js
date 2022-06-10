@@ -1,13 +1,13 @@
 import '../styles/home.scss';
 
-import imgResourceI from "../assets/images/I.jpg";
-import imgResourceR from "../assets/images/R.jpg";
-import imgResourceO from "../assets/images/O.jpg";
-import imgResourceN from "../assets/images/N.jpg";
+import imgResourceI from "../assets/images/I.webp";
+import imgResourceR from "../assets/images/R.webp";
+import imgResourceO from "../assets/images/O.webp";
+import imgResourceN from "../assets/images/N.webp";
 
 
-import imgResourcePicture1 from "../assets/images/picture-iron-man-detaill.jpg";
-import imgResourcePicture2 from "../assets/images/picture-iron-man-big.jpg";
+import imgResourcePicture1 from "../assets/images/picture-iron-man-detaill.webp";
+import imgResourcePicture2 from "../assets/images/picture-iron-man-big.webp";
 
 export const home = () => {
     const wrapper = document.createElement("section");

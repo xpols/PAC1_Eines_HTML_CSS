@@ -3,7 +3,7 @@
 #app {
     .home {
         .heroe-home{
-            background-image: url("../assets/images/heroe-biography_x15.jpeg");
+            background-image: url("../assets/images/heroe-biography_x15.webp");
             background-position-x: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -86,6 +86,6 @@
   (-webkit-min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi) { 
     .heroe-home{
-        background-image: url("../assets/images/heroe-biography_x2.jpeg");
+        background-image: url("../assets/images/heroe-biography_x2.webp");
     }
 }

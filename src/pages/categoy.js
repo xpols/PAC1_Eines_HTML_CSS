@@ -1,12 +1,12 @@
 import '../styles/category.scss';
-import imgResource1 from "../assets/images/cat-70s.jpeg";
-import imgResource1Detail from "../assets/images/cat-70s_detail.jpeg";
-import imgResource2 from "../assets/images/cat-80s.jpeg";
-import imgResource2Detail from "../assets/images/cat-80s_detail.jpeg";
-import imgResource3 from "../assets/images/cat-00s.jpeg";
-import imgResource3Detail from "../assets/images/cat-00s_detail.jpeg";
-import imgResource4 from "../assets/images/cat-10s.jpeg";
-import imgResource4Detail from "../assets/images/cat-10s_detail.jpeg";
+import imgResource1 from "../assets/images/cat-70s.webp";
+import imgResource1Detail from "../assets/images/cat-70s_detail.webp";
+import imgResource2 from "../assets/images/cat-80s.webp";
+import imgResource2Detail from "../assets/images/cat-80s_detail.webp";
+import imgResource3 from "../assets/images/cat-00s.webp";
+import imgResource3Detail from "../assets/images/cat-00s_detail.webp";
+import imgResource4 from "../assets/images/cat-10s.webp";
+import imgResource4Detail from "../assets/images/cat-10s_detail.webp";
 
 import { detail } from "./detail";
 
