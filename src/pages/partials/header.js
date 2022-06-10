@@ -17,7 +17,7 @@ export const header = () => {
     const imgHeader = document.createElement("img");
     imgHeader.src = imgLogo;
     imgHeader.alt = "Casco Iron Man";
-    imgHeader.style.height = "auto";
+    imgHeader.style.height = "77px";
     imgHeader.style.width = "50px";
     divTitle.appendChild(imgHeader);
     divTitle.appendChild(title);

@@ -45,7 +45,7 @@ export const footer = () => {
     const imgFooter = document.createElement("img");
     imgFooter.src = imgLogoFooter;
     imgFooter.alt = "Casco Iron Man";
-    imgFooter.style.height = "auto";
+    imgFooter.style.height = "77px";
     imgFooter.style.width = "50px";
     wrapper.appendChild(imgFooter);
 
