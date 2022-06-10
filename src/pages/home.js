@@ -49,7 +49,7 @@ export const home = () => {
     imgPicture.alt = "diagrama IronMan";
     imgPicture.loading="lazy";
     imgPicture.style.height = "auto";
-    imgPicture.style.width = "90%";
+    imgPicture.style.width = "1350px";
     picture.appendChild(imgPicture);
     wrapper.appendChild(picture);
 
